@@ -8710,7 +8710,7 @@
 			(uuid "165314fb-ad70-4db5-9215-9be29910d4e5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305B.step"
+		(model "${KIPRJMOD}/OE PyBoard FootprintLib/SW_SPST_TL3305B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13636,7 +13636,7 @@
 			(uuid "7e3cb86b-90cf-447f-9f9f-c35dfc3c2c9d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305B.step"
+		(model "${KIPRJMOD}/OE PyBoard FootprintLib/SW_SPST_TL3305B.step"
 			(offset
 				(xyz 0 0 0)
 			)
