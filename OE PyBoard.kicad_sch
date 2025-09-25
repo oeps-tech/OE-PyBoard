@@ -13790,7 +13790,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "5990010007F"
 			(at 248.92 223.52 0)
 			(effects
 				(font
@@ -13799,7 +13799,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030044"
 			(at 248.92 223.52 0)
 			(effects
 				(font
