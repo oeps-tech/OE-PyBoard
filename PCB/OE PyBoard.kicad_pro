@@ -26,9 +26,9 @@
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_size_h": 0.254,
+        "fab_text_size_v": 0.254,
+        "fab_text_thickness": 0.0635,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
@@ -41,11 +41,11 @@
           "height": 1.1,
           "width": 0.6
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.1524,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.6604,
+        "silk_text_size_v": 0.6604,
+        "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -63,7 +63,20 @@
           "width": 0.21
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|127991000|115037000|3fbbbbb0-9395-40e1-b449-f801d3326a86|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|142494000|98296000|08d8931a-613a-4228-a88a-bfb2a40e6bfd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|155956000|115012000|cba585b9-c4e0-4470-bb0c-05fb436e2155|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -460,7 +473,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -551,14 +564,14 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -572,6 +585,12 @@
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
         },
         {
           "group_by": false,
@@ -589,12 +608,6 @@
           "group_by": true,
           "label": "MPN",
           "name": "MPN",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
