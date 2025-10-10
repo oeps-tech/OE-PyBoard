@@ -9123,7 +9123,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4e5da3ea-b8a0-4522-b908-8761c7d41b9b)
+			(uuid fd3ad5a1-12ba-4200-9e10-05c3e7dc110a)
 		)
 	)
 	(symbol
@@ -10705,7 +10705,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "5990010007F"
 			(at 375.92 55.88 0)
 			(effects
 				(font
@@ -10714,7 +10714,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030044"
 			(at 375.92 55.88 0)
 			(effects
 				(font

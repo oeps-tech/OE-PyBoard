@@ -4012,7 +4012,7 @@
 				)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "5990010007F"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4025,7 +4025,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030044"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
