@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-10-09T14:31:21+0100 ###
+### Footprint positions - created on 2025-11-24T16:23:33+0000 ###
 ### Printed by KiCad version 9.0.0
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -7,7 +7,7 @@ C3        4.7uF          C_0603_1608Metric                                      
 C4        100nF          C_0402_1005Metric                                          23.7890    19.9410    0.0000  top
 C5        100nF          C_0402_1005Metric                                          11.5570    22.1000   90.0000  top
 C6        100nF          C_0402_1005Metric                                           7.5330    10.1620  180.0000  top
-C7        100nF          C_0402_1005Metric                                          24.8050    11.1780    0.0000  top
+C7        100nF          C_0402_1005Metric                                          24.8040    10.9440    0.0000  top
 C8        2.2uF          C_0603_1608Metric                                          25.4000    18.6710    0.0000  top
 C9        2.2uF          C_0603_1608Metric                                          13.0810    22.6080   90.0000  top
 C10       100nF          C_0402_1005Metric                                           8.0010     7.2410  180.0000  top
@@ -43,16 +43,16 @@ R12       4k7            R_0402_1005Metric                                      
 R13       4k7            R_0402_1005Metric                                          25.0590    17.0200  180.0000  top
 R14       100k           R_0402_1005Metric                                           6.9830    15.9462  180.0000  top
 R15       100k           R_0402_1005Metric                                          25.0590    14.9880    0.0000  top
-R17       4k7            R_0402_1005Metric                                          10.1600    36.0700   90.0000  top
+R17       4k7            R_0402_1005Metric                                          10.1600    34.5450   90.0000  top
 R18       560R           R_0402_1005Metric                                          23.4950     6.4750  -90.0000  top
 R19       560R           R_0402_1005Metric                                          24.9682     6.5170  -90.0000  top
 R20       560R           R_0402_1005Metric                                          26.5430     6.5170  -90.0000  top
 R21       4k7            R_0402_1005Metric                                           7.7470    17.9070    0.0000  top
 R22       270R           R_0402_1005Metric                                          28.1178     6.5170  -90.0000  top
-RST2      SW_SPST        SW_SPST_TL3305B                                             6.6040    23.1160  -90.0000  top
+RST2      SW_SPST        SW_SPST_TL3305B                                             6.5990    27.5940  -90.0000  top
 U2        STM32F405RGT6  LQFP-64_10x10mm_P0.5mm                                     16.5100    13.9720   90.0000  top
 U3        MCP1700T       SOT-23                                                     24.5008    34.9735   90.0000  top
-USR2      SW_SPST        SW_SPST_TL3305B                                             6.6040    33.0220  -90.0000  top
+USR2      SW_SPST        SW_SPST_TL3305B                                             6.5990    36.9190  -90.0000  top
 X2        12_MHz         Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm                 15.2654     4.1402    0.0000  top
 X3        32.768_kHz     Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering               8.2550     4.8280  -90.0000  top
 ## End

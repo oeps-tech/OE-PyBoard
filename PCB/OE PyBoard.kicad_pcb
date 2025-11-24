@@ -38,7 +38,7 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
-				(color "Black")
+				(color "White")
 				(material "Direct Printing")
 			)
 			(layer "F.Paste"
@@ -46,7 +46,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "White")
+				(color "Green")
 				(thickness 0.01)
 				(material "Epoxy")
 				(epsilon_r 3.3)
@@ -94,7 +94,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "White")
+				(color "Green")
 				(thickness 0.01)
 				(material "Epoxy")
 				(epsilon_r 3.3)
@@ -105,7 +105,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "Black")
+				(color "White")
 				(material "Direct Printing")
 			)
 			(copper_finish "None")
@@ -15827,7 +15827,7 @@
 	(footprint "OE PyBoard FootprintLib:OEPS Logo"
 		(layer "B.Cu")
 		(uuid "dce740f7-fe94-458e-8f60-8ef1b8cff08a")
-		(at 141.986 115.2652 180)
+		(at 141.975 114.4152 180)
 		(property "Reference" "REF**"
 			(at 0 0.5 0)
 			(unlocked yes)
@@ -17114,6 +17114,19 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "For Research\nUse Only"
+		(at 141.975 130.3 0)
+		(layer "B.SilkS")
+		(uuid "37029bc5-0daf-4544-8e65-d8682997a736")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "Not specified"
